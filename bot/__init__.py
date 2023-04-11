@@ -655,7 +655,7 @@ else:
 
 YT_DLP_QUALITY = environ.get('YT_DLP_QUALITY', '')
 if len(YT_DLP_QUALITY) == 0:
-    YT_DLP_QUALITY = ''
+    YT_DLP_QUALITY = 'bv+ba/b'
 
 BASE_URL = environ.get('BASE_URL', '').rstrip("/")
 if len(BASE_URL) == 0:
